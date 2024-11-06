@@ -19,9 +19,11 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [openstack_compute_floatingip_associate_v2.proxy_fip_association](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/compute_floatingip_associate_v2) | resource |
 | [openstack_compute_instance_v2.proxy](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/compute_instance_v2) | resource |
+| [openstack_networking_floatingip_associate_v2.proxy_fip_association](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/networking_floatingip_associate_v2) | resource |
 | [openstack_networking_floatingip_v2.proxy_fip](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/networking_floatingip_v2) | resource |
+| [openstack_networking_port_v2.port](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/networking_port_v2) | resource |
+| [openstack_networking_secgroup_v2.sg](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/data-sources/networking_secgroup_v2) | data source |
 
 ## Inputs
 
