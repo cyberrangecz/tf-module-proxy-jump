@@ -10,7 +10,7 @@ resource "openstack_networking_port_v2" "port" {
 }
 
 resource "openstack_compute_instance_v2" "proxy" {
-  name        = "kypo-proxy-jump"
+  name        = "proxy-jump"
   flavor_name = var.flavor_name
   image_id    = var.image_id
   key_pair    = var.key_pair
