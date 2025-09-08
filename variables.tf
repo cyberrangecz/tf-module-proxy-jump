@@ -27,3 +27,9 @@ variable "security_group" {
   type        = string
   description = "OpenStack proxy jump security group"
 }
+
+variable "instance_name" {
+  type        = string
+  description = "Name of the proxy jump instance"
+  default     = "proxy-jump"
+}
